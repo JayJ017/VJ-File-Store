@@ -30,14 +30,14 @@ def is_enabled(value, default):
 # Ask Doubt on telegram @KingVJ01
       
 # Owner Information
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-ADMINS = int(environ.get("ADMINS", ""))
+API_ID = int(environ.get("API_ID", "25248380"))
+API_HASH = environ.get("API_HASH", "d92f6971729bede4fe32cd6abd1f11e1")
+ADMINS = int(environ.get("ADMINS", "1231247732"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://amazonshopin19:GHVtHqFeKISs1oaf@cluster0.rysg4pt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
-DB_URI = environ.get("DB_URI", "")
+DB_URI = environ.get("DB_URI", "mongodb+srv://johnlomga3301231247732:.58x6U$DL72DKvv@cluster0.nb0liqe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "vjbotz")
 
 # Don't Remove Credit Tg - @VJ_Botz
@@ -46,16 +46,16 @@ DB_NAME = environ.get("DB_NAME", "vjbotz")
 
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # your bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "choco_supplier_bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
-AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
-AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
+AUTO_DELETE = int(environ.get("AUTO_DELETE", "")) # Time in Minutes
+AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002117718711"))
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002155837577')).split()]
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -94,9 +94,9 @@ class Var(object):
     FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
     HAS_SSL=bool(getenv('HAS_SSL',False))
     if HAS_SSL:
-        URL = ""
+        URL = "explicit-reba-choco-fefef7aa.koyeb.app "
     else:
-        URL = ""
+        URL = "explicit-reba-choco-fefef7aa.koyeb.app "
 
 
 
